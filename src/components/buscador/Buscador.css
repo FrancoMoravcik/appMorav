@@ -1,0 +1,103 @@
+.mainBuscador{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+.divMovieBuscador{
+    margin-left: 50px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 300px;
+    height: 240px;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.divImgBuscador{
+    display: flex;
+    justify-content: center;
+}
+
+.imgBuscador{
+   width: 300px;
+   height: 170px;
+   border-radius: 10px;
+}
+
+.divInfoMovieBuscador2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.pDivInfoMovieBuscador2{
+    color: rgba(255, 255, 255, 0.700);
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.svg{
+    width: 13px;
+    margin: 3px 5px 0px 2px;
+}
+
+.divInfoMovieBuscador3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 20px;
+}
+
+.pDivInfoMovieBuscador3{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -5px;
+ }
+ 
+
+.pMovieBuscada{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.divBuscador{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.labelBuscador{
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.inputBuscador{
+    width: 100%;
+    background-color: transparent;
+    color: rgb(128, 128, 128);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+.inputBuscador::-webkit-search-clear-button {
+    display: none;
+  }
+
+

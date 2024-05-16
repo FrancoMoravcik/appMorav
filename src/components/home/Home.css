@@ -1,0 +1,460 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* contenedor Titulo */
+
+.divh5tTittleTrending{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.h5Trending{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0px 0px 20px;
+}
+
+.divTrending{
+    width: 90%;
+    margin: auto;
+}
+
+/* contenedor principal */
+
+.divTrending .containerPrincipal {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* posicionamiento de las flechas */
+.divTrending .containerPrincipal .btnIzquierda, 
+.divTrending .containerPrincipal .btnDerecha {
+   position: absolute;
+   border: none;
+   background-color: transparent;
+   font-size: 25px;
+   font-weight: bold;
+   color: white;
+   top: calc(50% - 38%);
+   line-height: 30px;
+   cursor: pointer;
+   z-index: 500;
+   background-color: rgba(0, 0, 0, 0.400); 
+   transition: all .3s;
+}
+
+.btnDerecha, .btnIzquierda{
+    width: 50px;
+    height: 70%;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.divTrending .containerPrincipal .btnIzquierda:hover, 
+.divTrending .containerPrincipal .btnDerecha:hover {
+    transform: scale(1.05);
+    transform-origin: center;
+    background-color: rgba(0, 0, 0, 0.650);  
+}
+
+.divTrending .containerPrincipal .btnIzquierda{
+    left: 0;
+}
+.divTrending .containerPrincipal .btnDerecha{
+    right: 0;
+}
+
+/* Carrousel */
+
+.divTrending .containerCarrousel{
+   width: 100%;
+   overflow:hidden;
+   scroll-behavior: smooth;
+}
+
+.divTrending .containerCarrousel .carrousel{
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.divTrending .containerCarrousel .carrousel .divMovie{
+   transition: .3s ease all;
+   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer; 
+    margin: 5px;
+}
+
+.divTrending .containerCarrousel .carrousel .divMovie .imgPelicula{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;  
+    margin: auto;
+    opacity: .8;
+    cursor: pointer; 
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+/***** estilos para info dentro de imagen *****/
+
+
+
+
+
+
+
+.divTrending .containerCarrousel .carrousel .divMovie{   
+  position: relative;
+}
+
+.divInfoMovieContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.divInfoMovie2{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: 10px;
+   width: 100%;
+}
+
+.pDivInfoMovie2{
+   color: rgba(255, 255, 255, 0.700);
+   padding: 0px 5px;
+   font-weight: 400;
+   font-size: 14px;
+}
+
+.svgCarrousel{
+    width: 15px;
+    margin: 3px 5px 0px 0px;
+}
+
+.hrMovie{
+    height: 5px;
+    width: 5px;
+    background-color: hsla(0, 0%, 100%, 0.702);
+    opacity: 1;
+    border-radius: 50%;
+    border: none;
+}
+
+
+.divInfoMovie3{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.pDivInfoMovie3{
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+/* SECCION RECOMENDED */
+
+
+
+
+
+.sectionRecomended{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.divh5TittleRecomended{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.h5Recomended{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 55px 0px 0px 0px;
+}
+
+
+.divRecomendedContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.divRecomended{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 210px;
+    height: 200px;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.divImgRecomended{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRecomended{
+   width: 210px;
+   height: 130px;
+   border-radius: 10px;
+   transition: all .4s;
+}
+
+.imgRecomended:hover{
+    transform: scale(1.02);
+}
+
+.divInfoMovieRecomended2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.pDivInfoMovieRecomended2{
+    color: rgba(255, 255, 255, 0.700);
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.svg{
+    width: 13px;
+    margin: 3px 5px 0px 2px;
+}
+
+.divInfoMovieRecomended3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 20px;
+}
+
+.pDivInfoMovieRecomended3{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -5px;
+ }
+ 
+
+
+
+/* RESPONSIVE */ 
+
+@media (min-width:580px){
+    .divRecomended{
+        width: 240px;
+        margin: 10px 15px;
+    }
+    
+    .imgRecomended{
+       width: 240px;
+    }
+}
+
+@media (min-width:640px){
+    .divRecomended{
+        width: 250px;
+        margin: 10px 15px;
+    }
+    
+    .imgRecomended{
+       width: 250px;
+    }
+
+    .divTrending .containerCarrousel .carrousel .divMovie .imgPelicula{
+        width: 280px;
+        height: 150px;
+    }
+    
+    .divTrending .containerCarrousel .carrousel .divMovie{
+        height: 150px;
+    }
+
+    .divInfoMovie2{
+       margin-left: 20px;
+    }
+    
+    .pDivInfoMovie2{
+       padding: 0px 7px;
+       font-size: 15px;
+    }
+    
+    .divInfoMovie3{
+        margin-left: 27px;
+        margin-bottom: 15px;
+    }
+    
+    .pDivInfoMovie3{
+       font-weight: 500;
+    }
+    
+}
+
+@media (min-width:730px){
+    .divRecomended{
+        width: 270px;
+        margin: 10px 25px;
+    }
+    
+    .imgRecomended{
+       width: 270px;
+       height: 150px;
+    }
+}
+
+@media (min-width:812px){
+    .divRecomended{
+        width: 235px;
+        margin: 10px 3px;
+    }
+    
+    .imgRecomended{
+       width: 235px; 
+       height: 135px;
+    }
+}
+
+@media (min-width:940px){
+    .divRecomended{
+        width: 260px;
+        margin: 10px 5px;
+    }
+    
+    .imgRecomended{
+       width: 260px; 
+       height: 140px;
+    }
+
+    .divTrending .containerCarrousel .carrousel .divMovie .imgPelicula{
+        width: 340px;
+        height: 190px;
+    }
+    
+    .divTrending .containerCarrousel .carrousel .divMovie{
+        height: 190px;
+    }
+}
+
+@media (min-width:1050px){
+    .divRecomended{
+        width: 270px;
+        margin: 10px 10px;
+    }
+    
+    .imgRecomended{
+       width: 270px; 
+       height: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .divTrending .containerCarrousel .carrousel .divMovie .imgPelicula{
+        width: 370px;
+        height: 220px;
+    }
+    
+    .divTrending .containerCarrousel .carrousel .divMovie{
+        height: 220px;
+    }
+
+    .pDivInfoMovie2{
+       font-size: 16px;
+    }
+
+    .divRecomended{
+        width: 230px;
+        margin: 10px 7px;
+    }
+    
+    .imgRecomended{
+       width: 230px; 
+       height: 140px;
+    }
+
+    .mainHome{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "navBar mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador  mainBuscador mainBuscador"
+                             "navBar  sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel sectionCarrusel"
+                             "navBar sectionRecomended sectionRecomended sectionRecomended sectionRecomended sectionRecomended sectionRecomended sectionRecomended sectionRecomended sectionRecomended sectionRecomended sectionRecomended";
+    }
+
+   .navBar{
+    grid-area: navBar;
+   }
+
+   .mainBuscador{
+    grid-area: mainBuscador;
+   }
+
+   .sectionCarrusel{
+    grid-area: sectionCarrusel;
+   }
+
+   .sectionRecomended{
+    grid-area: sectionRecomended;
+   }
+     
+}
+
+
+
+@media (min-width: 1320px) {
+    .divRecomended{
+        width: 230px;
+        margin: 10px 19px;
+    }
+    
+    .imgRecomended{
+       width: 230px; 
+       height: 140px;
+    }
+
+}

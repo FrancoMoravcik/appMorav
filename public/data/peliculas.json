@@ -1,0 +1,62 @@
+
+[
+    {"id":1, "name": "AVATAR", "year": 2005, "age": "E", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/AVATAR.png", "trending": false},
+
+    {"id":2, "name": "Bienvenidos a La Tierra", "year": 2018, "age": "E", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/BienvenidosALaTierra.png", "trending": false},
+
+    {"id":3, "name": "Los Juegos del Hambre", "year": 2012, "age": "PG", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/LosJuegosDelHambre.png", "trending": false},
+
+    {"id":4, "name": "El Codigo Enigma", "year": 2014, "age": "E", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/EL-CODIGO-ENIGMA.png", "trending": false},
+
+    {"id":5, "name": "COSMOS", "year": 2014, "age": "E", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/COSMOS.png", "trending": false},
+
+    {"id":6, "name": "El Codigo Da Vinci", "year": 2006, "age": "PG", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/ElCodigoDaVinci.png", "trending": false},
+
+    {"id":7, "name": "El Padrino", "year": 1972, "age": "+18", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/elPadrino.png", "trending": false},
+
+    {"id":8, "name": "Gladiador", "year": 2000, "age": "PG", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/Gladiador.png", "trending": false},
+
+    {"id":9, "name": "Gossip Girl", "year": 2007, "age": "PG", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/gossip-girl.png", "trending": false},
+
+    {"id":10, "name": "Karate Kid", "year": 2010, "age": "E", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/KarateKid.png", "trending": false},
+
+    {"id":11, "name": "La Isla Siniestra", "year": 2010, "age": "+18", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/LA-ISLA-SINIESTRA.png", "trending": false},
+
+    {"id":12, "name": "Game of Thrones", "year": 2011, "age": "+18", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/game-of-thrones.jpeg", "trending": false},
+
+    {"id":13, "name": "One Strange Rock", "year": 2018, "age": "PG", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/oneStrangeRock.png", "trending": false},
+
+    {"id":14, "name": "Pablo Escobar", "year": 2012, "age": "+18", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/PabloEscobar.png", "trending": false},
+
+    {"id":15, "name": "POKEMON", "year": 1997, "age": "E", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/POKEMON.png", "trending": false},
+
+    {"id":16, "name": "Rescatando al Soldado Ryan", "year": 2019, "age": "PG", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/RescatandoalSoldadoRyan.png", "trending": false},
+
+    {"id":17, "name": "Revenant", "year": 2015, "age": "+18", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/REVENANT.png", "trending": false},
+
+    {"id":18, "name": "The Vampire Diaries", "year": 2009, "age": "PG", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/vampireDiaries.webp", "trending": false},
+
+    {"id":19, "name": "The Office", "year": 2005, "age": "E", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/THE-OFFICE.png", "trending": false},
+
+    {"id":20, "name": "The Walking Dead", "year": 2010, "age": "PG", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/THE-WALKING-DEAD.png", "trending": false},
+
+    {"id":21, "name": "The 100", "year": 2014, "age": "PG", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/THE100.png", "trending": false},
+
+    {"id":22, "name": "Breaking Bad", "year": 2008, "age": "PG", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/BreakingBad.png", "trending": true},
+
+    {"id":23, "name": "Rush", "year": 2013, "age": "E", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/RUSH.png", "trending": true},
+
+    {"id":24, "name": "Suits", "year": 2011, "age": "E", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/SUITS.png", "trending": true},
+
+    {"id":25, "name": "Shrek", "year": 2001, "age": "E", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/Shrek.png", "trending": true},
+
+    {"id":26, "name": "Juego de Honor", "year": 2005, "age": "E", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/JUEGO-DE-HONOR.png", "trending": true},
+
+    {"id":27, "name": "DJANGO", "year": 2013, "age": "PG", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/DJANGO.png", "trending": true},
+
+    {"id":28, "name": "Transformers", "year": 2007, "age": "E", "category": "Movies", "icono": "./img/film-solid.svg", "img": "./img/Transformers.png", "trending": true},
+
+    {"id":29, "name": "VIKINGOS", "year": 2013, "age": "PG", "category": "TV Series", "icono": "./img/tv-solid.svg", "img": "./img/VIKINGOS.png", "trending": true},
+
+    {"id":30, "name": "Chernobil", "year": 2019, "age": "PG", "category": "Movies", "icono": "<Icon  icon={faFilm}/>", "img": "./img/chernobil.png", "trending": true}
+]

@@ -1,0 +1,123 @@
+
+.mainMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divh5TittleMovies{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.h5Movies{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0px 0px 0px 30px;
+}
+
+@media (min-width:580px){
+    .divRecomended{
+        width: 240px;
+        margin: 10px 5px;
+    }
+    
+    .imgRecomended{
+       width: 240px;
+    }
+}
+
+@media (min-width:640px){
+    .divRecomended{
+        width: 250px;
+        margin: 10px 15px;
+    }
+    
+    .imgRecomended{
+       width: 250px;
+    }
+}
+
+@media (min-width:730px){
+    .divRecomended{
+        width: 270px;
+        margin: 10px 25px;
+    }
+    
+    .imgRecomended{
+       width: 270px;
+       height: 150px;
+    }
+}
+
+@media (min-width:812px){
+    .divRecomended{
+        width: 235px;
+        margin: 10px 3px;
+    }
+    
+    .imgRecomended{
+       width: 235px; 
+       height: 135px;
+    }
+}
+
+@media (min-width:940px){
+    .divRecomended{
+        width: 260px;
+        margin: 10px 5px;
+    }
+    
+    .imgRecomended{
+       width: 260px; 
+       height: 140px;
+    }
+}
+
+@media (min-width:1050px){
+    .divRecomended{
+        width: 270px;
+        margin: 10px 10px;
+    }
+    
+    .imgRecomended{
+       width: 270px; 
+       height: 150px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+.mainMovie{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "navBar mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador mainBuscador  mainBuscador mainBuscador"   
+    "navBar divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies divh5TittleMovies"    
+                         "navBar divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer divRecomendedContainer";
+                         align-items: flex-start;
+}
+
+.navBar{
+grid-area: navBar;
+}
+
+.mainBuscador{
+grid-area: mainBuscador;
+}
+
+.divh5TittleMovies{
+    grid-area: divh5TittleMovies;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.divRecomendedContainer{
+grid-area: divRecomendedContainer;
+width: 100%;
+}
+}
